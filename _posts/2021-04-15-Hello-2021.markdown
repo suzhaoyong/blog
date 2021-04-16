@@ -16,4 +16,33 @@ tags:
 
 <p id="build"></p>
 ## 正文
-这是我的第一篇博客
+今天弄一个小小的博客，可以记录生活，心情，技术，兴趣或爱好等等，也算是时间留下的痕迹。
+
+这是我的第一篇博客,下面说说我搭建博客的历程和心得体会。
+
+互联网上有许多搭建博客的教程，我也是借鉴其他人的，现在我也把如何一步步做的展示出来。
+
+[Github](https://github.com/) + [Jekyll](http://jekyllrb.com/) + [Huxpro 模版](https://github.com/Huxpro/huxpro.github.io) 快速实现自己的博客。
+
+使用到 Github 主要是免费的域名和空间，也方便别人访问，可已不用关心 [服务器](https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8) 和 [域名](https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D)。当然你可以自己去折腾，在自己的服务器和域名下部署。
+
+再看看 [Jekyll 安装教程](https://jekyllrb.com/docs/installation/)，值得注意的是它所要求的**环境**。
+安装好环境之后，在命令行中输入 `jekyll -v` 一方面查看版本号，另一方面检查是否安装成功。
+
+接下来克隆博客模版，我使用的是 [Huxpro 模版](https://github.com/Huxpro/huxpro.github.io)，当然还有[其他可选模版](http://jekyllthemes.org/)。
+
+然后就是写博客了，会使用 **Markdown** 最好，会带给你优雅的写作体验。
+### 打包生成静态文件
+假设你已经写好博客了，可以执行这个命令 `bundle exec jekyll build` 来生成静态文件夹。我这个项目 [suzhaoyong.github.io](https://github.com/suzhaoyong/suzhaoyong.github.io) 静态文件生成在 _site 文件夹下。
+然后把 _site 下的文件复制到其他空白的文件夹下，再推送仓库中
+### 推送到仓库中
+在 Github 中创建一个 `username.github.io` 的 repository，其中 username 是你 Github 的用户名，例如我的是 `suzhaoyong.github.io`。 接下来在命令行工具如 `git-bash` 中进入上一步的文件目录下使用 `Git` 命令推送到仓库中。
+### 设置 Github Page
+接下来就是设置访问域名了，进入你的 `username.github.io` 仓库中，在 Setting 找到 GitHub Pages 选项。点击链接进入看到 Source 选项，选择 `main` 或其他 branch，再选择目录，保存一下就可以在浏览器中输入 `http://username.github.io` 访问了，看到自己的博客还是开心的。
+
+## 后记
+接下来需要做的
+- [ ] 来熟悉 Markdown 的语法
+- [x] 使用七牛云对象存储图片
+- [x] jenkins 发布文章
+- [x] 自定义域名
