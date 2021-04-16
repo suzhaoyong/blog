@@ -1,11 +1,11 @@
 # Site settings
 title: Atmi 
-SEOTitle: 苏赵勇博客
+SEOTitle: Atmi的博客
 header-img: http://upload.youatmi.com/linkedin_banner_image_1.png
 email: javascriporz@gmail.com
 description: "关于程序与设计、黑客与画家 | 苏赵勇，Web & Mobile Lover，Software Engineer，UX Designer。"
-keyword: "苏赵勇的博客, Atmi Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://www.youatmi.com"              # your host, for absolute URL
+keyword: 苏赵勇的博客, Atmi Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+url: "https://blog.youatmi.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: su
+disqus_username: javascriporz
 
 # Netease settings
 netease_comment: false
@@ -68,11 +68,11 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-# ba_track_id: [your track id]
+ba_track_id: bc3b6ceccf2cbc12b5a1462d04f190a1
 
 # Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
+ga_track_id: 'G-S89C57546S'            # Format: UA-xxxxxx-xx
+ga_domain: ga_domain
 
 
 
