@@ -2,7 +2,7 @@
 layout:         post
 title:          "Hello 2021"
 subtitle:       "\"Hello World, Hello Blog\""
-date:           2021-04-05
+date:           2021-04-15
 author:         "AtSu"
 header-img:     "https://upload.youatmi.com/image/city.jpg"
 catalog:        true
@@ -10,7 +10,7 @@ tags:
     - 生活
     - Meta
 ---
-今天是 2021 年的第 104 天， AtSu 的 Blog 开通了。
+今天是 2021 年的第 106 天， AtSu 的 Blog 开通了。
 
 [搭建此 Blog，借助互联网资源所得](#build)
 

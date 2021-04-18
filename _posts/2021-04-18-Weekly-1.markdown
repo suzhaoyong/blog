@@ -1,0 +1,47 @@
+---
+layout:         post
+title:          "日常技术和生活周刊（第 1 期）：生命在于折腾"
+subtitle:       "\"重置了系统，安装新浏览器，彷佛一切都从头开始了\""
+date:           2021-04-18
+author:         "AtSu"
+header-img:     "https://upload.youatmi.com/image/city.jpg"
+catalog:        true
+tags:
+    - 生活
+    - 周刊
+---
+今天是 2021 的第 109 天，也是「日常技术和生活周刊」第 1 期。
+
+## 正文
+### 技术类
+###### 搭建个人博客
+[搭建个人博客](/2021/04/15/Hello-2021)：Github + Jekyll + Huxpro 模版快速搭建博客
+##### 注册七牛云存储图片等资源
+[七牛云](https://portal.qiniu.com/)对个人用户开发者可以免费使用 10G/月的存储空间。
+1. 注册七牛云账号
+2. 创建存储空间
+3. 上传图片
+
+###### iTem2 + Oh My Zsh 打造舒适终端体验
+下载 [iTeam2](https://iterm2.com/) 然后参考 [ohmyzsh 安装手册](https://github.com/ohmyzsh/ohmyzsh#manual-installation)快速打造，有许多内置样式和插件，可以自行配置适合自己的。
+###### brew 安装
+[brew](https://brew.sh/index_zh-cn) 是管理 macOS（或 Linux）缺失的软件包的管理器<br>
+若是因为特殊原因不能安装的可以切换镜像源，例如
+```shell
+/bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)"
+```
+如若遇到其他问题可以参考[mac下镜像飞速安装Homebrew教程](https://zhuanlan.zhihu.com/p/90508170)
+##### jenkins 安装
+我电脑是 macOS 参考了 [Homebrew Installer for Jenkins LTS](https://www.jenkins.io/download/lts/macos/) 文档安装 jenkins。其中 LTS(Long Term Support) 是长期维护的意思，你也可选择其他版本，根据个人情况。
+```shell
+brew install jenkins-lts
+```
+你要是其他系统，可查看[其他系统版本](https://www.jenkins.io/download/)
+### 生活类
+###### 重置系统，安装 brave 浏览器
+重新安装笔记本电脑系统，使用时间机器做了备份，再安装 **brave 浏览器** 一方面和 Chrome 浏览器挺接近的但还是有些区别，另一方面个人在隐私方面我更相信它，而且可以屏蔽广告特别舒服。<br>
+开通了 brave wallet 了解数字货币（如：ETH 等）。<br>
+### 工具类推荐
+##### bitwarden
+[bitwarden](https://bitwarden.com) 是一款**跨平台**密码管理工具，对**个人**使用也是**免费**，移动端，Web端，浏览器中及PC端都可以使用。
+
